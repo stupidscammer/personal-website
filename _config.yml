@@ -1,4 +1,4 @@
-layout: sidebar
+layout: stacked
 style: light
 
 plugins:
@@ -25,26 +25,38 @@ projects:
   exclude:
     forks: true
     projects:
-    # - repo-name
+    - wordpress-develop
+    - morganestes.github.io
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
-  # linkedin: your_username
+  linkedin: morganestes
   # medium: @your_username
-  # stackoverflow: your_user_id
+  stackoverflow: 1588534
   # telegram: your_username
-  # twitter: your_username
+  twitter: morganestes
   # youtube: your_username
   # vk: your_username
+  wordpress: morganestes
 
 topics:
+  - name: WordPress
+    web_url: https://github.com/topics/wordpress
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/wordpress/wordpress.png
+
+  - name: JavaScript
+    web_url: https://github.com/topics/js
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/javascript/javascript.png
+
+  - name: PHP
+    web_url: https://github.com/topics/php
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/php/php.png
+
   - name: CSS
     web_url: https://github.com/topics/css
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
-
-  - name: Web design
 
   - name: Sass
     web_url: https://github.com/topics/sass
